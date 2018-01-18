@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: hsl(216, 77%, 95%);
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.board {
+    text-align: center;
+}
+
+.column-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 0 16px;
+}
+
+.column {
+    display: inline-block;
+    border: 6px dashed hsl(227, 37%, 41%);
+    margin: 25px;
+    padding: 10px 25px;
+    width: 300px;
+    height: auto;
+    min-height: 400px;
+    max-height: 100vh;
+    font-family: Arial;
+    vertical-align: top; 
+}
+
+.card {
+    margin: 5px 10px;
+    text-align: center; 
+    color: navy;
+    background-color: background #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+}
+
+.column-card-list {
+    padding: 0;
+    min-height: 400px;
+}
+
+ 
